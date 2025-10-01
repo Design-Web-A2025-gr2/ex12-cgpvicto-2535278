@@ -1,3 +1,24 @@
 * {
     font-family: 'Segoe UI';
 }
+body{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+article{
+    column-count: 2;
+    text-align: justify;
+}
+h2{
+    color: #aaa;
+    text-decoration-line: underline;
+    text-decoration-color: #fa0;
+}
+@media screen and (width < 750px) {
+    article{
+        column-count: 1;
+    }
+    h2{
+        text-decoration-line: none;
+    }
+}
