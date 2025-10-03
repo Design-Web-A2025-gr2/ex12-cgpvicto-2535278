@@ -7,6 +7,8 @@ body{
 }
 article{
     column-count: 2;
+}
+p{
     text-align: justify;
 }
 h2{
