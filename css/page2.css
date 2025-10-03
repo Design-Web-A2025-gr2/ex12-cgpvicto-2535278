@@ -98,3 +98,14 @@ footer {
         display: none;
     }
 }
+@media print{
+    .entete, .menu-conteneur{
+        display: none;
+    }
+    #conteneur-principale{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "articles"
+            "presentation"
+    }
+}
